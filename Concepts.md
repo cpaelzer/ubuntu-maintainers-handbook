@@ -295,7 +295,7 @@ The build process starts when a source package is uploaded to a series/pocket an
 
 Upon acceptance, it will appear in the `Latest upload` section of the package source page (for example, https://launchpad.net/ubuntu/+source/hello).
 
-Launchpad will also schedule builders to build the required binary packages. You can see the build queue at https://launchpad.net/builders.
+Launchpad will also schedule builders (4 cpu / 8 GB mem) to build the required binary packages. You can see the build queue at https://launchpad.net/builders.
 
 If you click on the latest version in the `+source/some-package` page, you'll see under `Builds` the latest status of the builds for each architecture.
 
